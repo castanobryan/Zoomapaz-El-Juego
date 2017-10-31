@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheckGrounded : MonoBehaviour {
+public class CheckGroundedB : MonoBehaviour {
 
-	private PlayerZariController player;
+	private PlayerBearController player;
 
 	// Use this for initialization
 	void Start () {
-		player = GetComponentInParent<PlayerZariController> ();
+		player = GetComponentInParent<PlayerBearController> ();
 
 	}
-	
+
 	void OnCollisionStay2D(Collision2D col){
 		if (col.gameObject.tag == "Ground") {
 			player.grounded = true;
