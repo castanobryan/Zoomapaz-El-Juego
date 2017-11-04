@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CameraFollowZ.cs" />
      <Compile Include="Assets\CheckGrounded.cs" />
      <Compile Include="Assets\CheckGroundedA.cs" />
      <Compile Include="Assets\CheckGroundedB.cs" />
