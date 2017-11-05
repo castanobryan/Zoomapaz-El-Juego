@@ -39,9 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: backDec
+    uniqueID: 3019923023
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 3525273729
+    locked: 0
+  - name: FFront
+    uniqueID: 3777490323
     locked: 0
