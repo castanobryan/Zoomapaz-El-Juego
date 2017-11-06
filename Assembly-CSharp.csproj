@@ -47,10 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CameraFollowZ.cs" />
+     <Compile Include="Assets\ChangeLevel.cs" />
      <Compile Include="Assets\CheckGrounded.cs" />
      <Compile Include="Assets\CheckGroundedA.cs" />
      <Compile Include="Assets\CheckGroundedB.cs" />
      <Compile Include="Assets\CheckGroundedT.cs" />
+     <Compile Include="Assets\FadeScene.cs" />
      <Compile Include="Assets\PlayerArmaController.cs" />
      <Compile Include="Assets\PlayerBearController.cs" />
      <Compile Include="Assets\PlayerTigController.cs" />

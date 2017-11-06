@@ -1221,6 +1221,26 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+--- !u!1 &2114992875 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1975219775110814, guid: 3de277e604d49d54fbef7ccaacd2ba20,
+    type: 2}
+  m_PrefabInternal: {fileID: 1868278875}
+--- !u!68 &2114992876
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114992875}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -2.521891, y: 1.4348903}
+  - {x: 12.5009, y: 1.4675016}
 --- !u!1 &2126382064
 GameObject:
   m_ObjectHideFlags: 0
