@@ -228,7 +228,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4683306653926806}
   - component: {fileID: 212267526799392634}
-  - component: {fileID: 68248556157946890}
   m_Layer: 0
   m_Name: Plataforma 5x3
   m_TagString: Ground
@@ -405,7 +404,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1975219775110814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 90.14, y: -4.34, z: 0}
+  m_LocalPosition: {x: 98.14, y: -1.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4308007124849840}
@@ -491,23 +490,6 @@ Transform:
   m_Father: {fileID: 4683306653926806}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &68248556157946890
-EdgeCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1975219775110814}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: 4a50a282f19c4f14688a6ac73d02769d, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  m_Points:
-  - {x: -2.5127258, y: -2.5600786}
-  - {x: -2.513794, y: 1.5271629}
-  - {x: 2.5159225, y: 1.5191221}
-  - {x: 2.5119858, y: -2.516367}
 --- !u!212 &212083698460039640
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -607,8 +589,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1275044273
-  m_SortingOrder: -1
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -678,7 +660,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300304, guid: c8f6d29e8006573479d3d1cc0e21d72f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
