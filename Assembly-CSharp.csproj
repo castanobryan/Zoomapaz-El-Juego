@@ -52,6 +52,7 @@
      <Compile Include="Assets\CheckGroundedA.cs" />
      <Compile Include="Assets\CheckGroundedB.cs" />
      <Compile Include="Assets\CheckGroundedT.cs" />
+     <Compile Include="Assets\Checkpoint1.cs" />
      <Compile Include="Assets\FadeScene.cs" />
      <Compile Include="Assets\PlayerArmaController.cs" />
      <Compile Include="Assets\PlayerBearController.cs" />
