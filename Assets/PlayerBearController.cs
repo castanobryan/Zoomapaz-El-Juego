@@ -51,7 +51,7 @@ public class PlayerBearController : MonoBehaviour {
 	}
 
 	void OnBecameInvisible(){
-		transform.position = new Vector3 (-4.5f, -2.5f, 0f);
+		transform.position = new Vector3 (-6f, 1.6f, 0f);
 	}
 
 }
