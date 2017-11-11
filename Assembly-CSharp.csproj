@@ -55,6 +55,7 @@
      <Compile Include="Assets\Checkpoint1.cs" />
      <Compile Include="Assets\FadeScene.cs" />
      <Compile Include="Assets\FuncionBotones.cs" />
+     <Compile Include="Assets\HitandRespawn.cs" />
      <Compile Include="Assets\PlayerArmaController.cs" />
      <Compile Include="Assets\PlayerBearController.cs" />
      <Compile Include="Assets\PlayerTigController.cs" />

@@ -4,15 +4,16 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerBearController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\HitandRespawn.cs">
     <Files>
       <File FileName="Assets\CameraFollowZ.cs" Line="1" Column="1" />
-      <File FileName="Assets\PlayerZariController.cs" Line="1" Column="1" />
-      <File FileName="Assets\ChangeLevel.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayerZariController.cs" Line="54" Column="3" />
+      <File FileName="Assets\ChangeLevel.cs" Line="10" Column="56" />
       <File FileName="Assets\FadeScene.cs" Line="1" Column="1" />
       <File FileName="Assets\Checkpoint1.cs" Line="1" Column="1" />
       <File FileName="Assets\FuncionBotones.cs" Line="1" Column="1" />
-      <File FileName="Assets\PlayerBearController.cs" Line="54" Column="42" />
+      <File FileName="Assets\PlayerBearController.cs" Line="54" Column="11" />
+      <File FileName="Assets\HitandRespawn.cs" Line="11" Column="63" />
     </Files>
   </MonoDevelop.Ide.Workbench>
 </Properties>
