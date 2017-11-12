@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerArmaController : MonoBehaviour {
 
-	public float maxSpeed = 10f;
+	public float maxSpeed = 20f;
 	public float speed = 2f;
 	public bool grounded;
 	//public float jumpPower = 6.5f;
