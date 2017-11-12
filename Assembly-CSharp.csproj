@@ -49,6 +49,7 @@
      <Compile Include="Assets\CameraFollowZ.cs" />
      <Compile Include="Assets\ChangeLevel.cs" />
      <Compile Include="Assets\ChangeLevel2.cs" />
+     <Compile Include="Assets\ChangeLevel3.cs" />
      <Compile Include="Assets\CheckGrounded.cs" />
      <Compile Include="Assets\CheckGroundedA.cs" />
      <Compile Include="Assets\CheckGroundedB.cs" />
