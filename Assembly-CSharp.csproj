@@ -50,6 +50,7 @@
      <Compile Include="Assets\ChangeLevel.cs" />
      <Compile Include="Assets\ChangeLevel2.cs" />
      <Compile Include="Assets\ChangeLevel3.cs" />
+     <Compile Include="Assets\CheckGroundD.cs" />
      <Compile Include="Assets\CheckGrounded.cs" />
      <Compile Include="Assets\CheckGroundedA.cs" />
      <Compile Include="Assets\CheckGroundedB.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\HitandRespawn.cs" />
      <Compile Include="Assets\PlayerArmaController.cs" />
      <Compile Include="Assets\PlayerBearController.cs" />
+     <Compile Include="Assets\PlayerDacController.cs" />
      <Compile Include="Assets\PlayerTigController.cs" />
      <Compile Include="Assets\PlayerZariController.cs" />
  <Reference Include="UnityEngine.UI">
