@@ -22,7 +22,7 @@ public class PlayerTigController : MonoBehaviour {
 		anim.SetFloat ("Speed", Mathf.Abs(rb2d.velocity.x));
 		anim.SetBool ("Grounded", grounded);
 
-		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
+		if (Input.GetKeyDown (KeyCode.Space) && grounded) {
 			jump = true;
 		}
 	}
@@ -47,10 +47,6 @@ public class PlayerTigController : MonoBehaviour {
 			rb2d.AddForce (Vector2.up * jumpPower, ForceMode2D.Impulse);
 			jump = false;
 		}
-	}
-
-	void OnBecameInvisible(){
-		transform.position = new Vector3 (-4.5f, -2.5f, 0f);
 	}
 
 }

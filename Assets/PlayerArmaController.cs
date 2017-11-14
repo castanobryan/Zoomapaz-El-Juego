@@ -7,11 +7,9 @@ public class PlayerArmaController : MonoBehaviour {
 	public float maxSpeed = 20f;
 	public float speed = 2f;
 	public bool grounded;
-	//public float jumpPower = 6.5f;
 
 	private Rigidbody2D rb2d;
 	private Animator anim;
-	//private bool jump;
 
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D> ();
@@ -22,9 +20,6 @@ public class PlayerArmaController : MonoBehaviour {
 		anim.SetFloat ("Speed", Mathf.Abs(rb2d.velocity.x));
 		anim.SetBool ("Grounded", grounded);
 
-		//if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
-		//jump = true;
-		//}
 	}
 
 	void FixedUpdate(){
@@ -44,14 +39,5 @@ public class PlayerArmaController : MonoBehaviour {
 		if (h < -0.1f) {
 			transform.localScale = new Vector3 (-1f, 1f, 1f);
 		}
-		//if (jump) {
-		//	rb2d.AddForce (Vector2.up * jumpPower, ForceMode2D.Impulse);
-		//	jump = false;
-		//}
 	}
-
-	void OnBecameInvisible(){
-		transform.position = new Vector3 (-4.5f, -2.5f, 0f);
-	}
-
 }

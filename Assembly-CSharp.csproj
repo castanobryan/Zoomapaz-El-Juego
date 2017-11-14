@@ -57,7 +57,8 @@
      <Compile Include="Assets\CheckGroundedA.cs" />
      <Compile Include="Assets\CheckGroundedB.cs" />
      <Compile Include="Assets\CheckGroundedT.cs" />
-     <Compile Include="Assets\Checkpoint1.cs" />
+     <Compile Include="Assets\CheckpointActivate.cs" />
+     <Compile Include="Assets\Checkpoints.cs" />
      <Compile Include="Assets\FadeScene.cs" />
      <Compile Include="Assets\FuncionBotones.cs" />
      <Compile Include="Assets\HitandRespawn.cs" />

@@ -22,7 +22,7 @@ public class PlayerBearController : MonoBehaviour {
 		anim.SetFloat ("Speed", Mathf.Abs(rb2d.velocity.x));
 		anim.SetBool ("Grounded", grounded);
 
-		if (Input.GetKeyDown (KeyCode.UpArrow) && grounded) {
+		if (Input.GetKeyDown (KeyCode.Space) && grounded) {
 			jump = true;
 		}
 	}
@@ -48,10 +48,6 @@ public class PlayerBearController : MonoBehaviour {
 			rb2d.AddForce (Vector2.up * jumpPower, ForceMode2D.Impulse);
 			jump = false;
 		}
-	}
-
-	void OnBecameInvisible(){
-		transform.position = new Vector3 (-6f, 1.6f, 0f);
 	}
 
 }

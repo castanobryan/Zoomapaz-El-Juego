@@ -49,8 +49,4 @@ public class PlayerDacController : MonoBehaviour {
 			jump = false;
 		}
 	}
-
-	/*void OnBecameInvisible(){
-		transform.position = new Vector3 (-4.5f, -2.5f, 0f);
-	}*/
 }
