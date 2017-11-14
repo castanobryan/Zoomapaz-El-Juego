@@ -51,6 +51,7 @@
      <Compile Include="Assets\ChangeLevel2.cs" />
      <Compile Include="Assets\ChangeLevel3.cs" />
      <Compile Include="Assets\ChangeLevel4.cs" />
+     <Compile Include="Assets\ChangeLevel5.cs" />
      <Compile Include="Assets\CheckGroundD.cs" />
      <Compile Include="Assets\CheckGrounded.cs" />
      <Compile Include="Assets\CheckGroundedA.cs" />
