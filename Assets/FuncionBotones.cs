@@ -16,7 +16,7 @@ public class FuncionBotones : MonoBehaviour {
 	}
 
 	public void IniciarJuego(){
-		SceneManager.LoadScene ("1W", LoadSceneMode.Single);
+		SceneManager.LoadScene ("Zari1", LoadSceneMode.Single);
 	}
 
 	public void MutearTodo(){

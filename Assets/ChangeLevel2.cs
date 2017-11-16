@@ -7,7 +7,7 @@ public class ChangeLevel2 : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if(other.gameObject.tag == "Player"){
-			SceneManager.LoadScene ("3W", LoadSceneMode.Single);
+			SceneManager.LoadScene ("Zari7", LoadSceneMode.Single);
 		}
 	}
 }

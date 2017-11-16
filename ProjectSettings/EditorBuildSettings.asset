@@ -19,3 +19,35 @@ EditorBuildSettings:
     path: Assets/Scenes/4W.unity
   - enabled: 1
     path: Assets/Scenes/Creditos_menu.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari1.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari2.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari3.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari4.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari5.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari6.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari7.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari8.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari9.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari10.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari11.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari12.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari13.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari14.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari15.unity
+  - enabled: 1
+    path: Assets/Scenes/Zari16.unity
