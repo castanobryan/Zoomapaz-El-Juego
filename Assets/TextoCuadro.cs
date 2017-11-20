@@ -23,7 +23,7 @@ public class TextoCuadro : MonoBehaviour {
 		while (letra < txt.Length) {
 			texto.text += txt[letra];
 			letra += 1;
-			yield return new WaitForSeconds (0.05f);
+			yield return new WaitForSeconds (0.03f);
 		}
 	}
 }
