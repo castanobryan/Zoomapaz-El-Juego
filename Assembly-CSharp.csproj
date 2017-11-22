@@ -60,6 +60,7 @@
      <Compile Include="Assets\CheckGroundedT.cs" />
      <Compile Include="Assets\CheckpointActivate.cs" />
      <Compile Include="Assets\Checkpoints.cs" />
+     <Compile Include="Assets\Destroy.cs" />
      <Compile Include="Assets\FadeScene.cs" />
      <Compile Include="Assets\FuncionBotones.cs" />
      <Compile Include="Assets\HitandRespawn.cs" />

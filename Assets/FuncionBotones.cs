@@ -31,4 +31,8 @@ public class FuncionBotones : MonoBehaviour {
 			Boton.image.overrideSprite = Unmute;
 		}
 	}
+
+	public void ExternalUrl(string url){
+		UnityEngine.Application.OpenURL (url);
+	}
 }
