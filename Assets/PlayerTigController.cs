@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerTigController : MonoBehaviour {
-
+	public AudioClip Pointsound;
+	public AudioClip Pointfail;
+	public GameObject game;
 	public float maxSpeed = 10f;
 	public float speed = 2f;
 	public bool grounded;
 	public float jumpPower = 6.5f;
-
+	private AudioSource audioPlayer;
 	private Rigidbody2D rb2d;
 	private Animator anim;
 	private bool jump;
@@ -16,6 +18,8 @@ public class PlayerTigController : MonoBehaviour {
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
+		audioPlayer = GetComponent<AudioSource> ();
+		game = GameObject.Find ("Points");
 	}
 
 	void Update () {
@@ -46,6 +50,21 @@ public class PlayerTigController : MonoBehaviour {
 		if (jump) {
 			rb2d.AddForce (Vector2.up * jumpPower, ForceMode2D.Impulse);
 			jump = false;
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.tag == "Point"){
+			Destroy (other.gameObject);
+			game.SendMessage ("IncreasePoints");
+			audioPlayer.clip = Pointsound;
+			audioPlayer.Play ();
+		} 
+
+		if (other.gameObject.tag == "Caida"){
+			game.SendMessage("DecreasePoints");
+			audioPlayer.clip = Pointfail;
+			audioPlayer.Play ();
 		}
 	}
 

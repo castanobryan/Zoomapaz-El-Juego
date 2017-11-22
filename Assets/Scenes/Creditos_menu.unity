@@ -2728,7 +2728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -110, y: -73.3}
+  m_AnchoredPosition: {x: -97.6, y: -70.2}
   m_SizeDelta: {x: -363.5, y: -148.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290561456
@@ -2751,9 +2751,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: e8b232d1f07f84847a133460cfa1c795, type: 3}
+    m_FontSize: 18
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 188
@@ -6514,7 +6514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -185, y: 16.7}
+  m_AnchoredPosition: {x: -172.6, y: 17.5}
   m_SizeDelta: {x: -410.4, y: -14.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &961709197
@@ -6537,11 +6537,11 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: e8b232d1f07f84847a133460cfa1c795, type: 3}
+    m_FontSize: 18
+    m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 1
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -6549,7 +6549,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "ANIMACION\r\nBryan Casta\xF1o\r\n\r\nARTE\r\nBryan Casta\xF1o\r\n\r\nAUDIO\r\nBryan
+  m_Text: "ANIMACI\xD3N\r\nBryan Casta\xF1o\r\n\r\nARTE\r\nBryan Casta\xF1o\r\n\r\nAUDIO\r\nBryan
     Casta\xF1o\r\n\n"
 --- !u!222 &961709198
 CanvasRenderer:
@@ -12020,7 +12020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 159, y: 86.2}
+  m_AnchoredPosition: {x: 167, y: 86.8}
   m_SizeDelta: {x: -363.5, y: -214.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640271896
@@ -12043,12 +12043,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: e8b232d1f07f84847a133460cfa1c795, type: 3}
+    m_FontSize: 18
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 188
+    m_MaxSize: 218
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -12798,7 +12798,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -31, y: 32.8}
+  m_AnchoredPosition: {x: -13.1, y: 32.8}
   m_SizeDelta: {x: -394.05, y: -41.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1792431564
@@ -12821,9 +12821,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: e8b232d1f07f84847a133460cfa1c795, type: 3}
+    m_FontSize: 18
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -13513,7 +13513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 160, y: -11.9}
+  m_AnchoredPosition: {x: 167, y: -16.5}
   m_SizeDelta: {x: -317.3, y: -23.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1897259240
@@ -13536,23 +13536,22 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 9
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: e8b232d1f07f84847a133460cfa1c795, type: 3}
+    m_FontSize: 12
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 112
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "MUSICA\r\nDigital Voyage - Twin Musicom\r\n8-Bit March - Twin Musicom\r\nMega
-    Rust - Twin Musicom\r\nStopping By the Inn - Twin Musicom\r\nLooked Back Saw Nothing
-    - Twin Musicom\r\nHackerland - Twin Musicom\r\n(www.twinmusicom.org)\r\n\r\nARTE\r\nHector
-    Costa\r\n(www.escueladevideojuegos.net)\r\n\nTESTEO\nMateo\r Sandoval\nYojan\r
-    Pardo\n"
+  m_Text: "MUSICA\r\nDigital Voyage \n8-Bit March\r - Mega Rust\nStopping By the Inn
+    \nLooked Back Saw Nothing\nHackerland \n(www.twinmusicom.org)\r\n\r\nARTE\r\nKenney
+    (www.kenney.nl)\r\n\nTESTEO\nMateo\r Sandoval (co)\nYojan\r Pardo (co)\nAdrian
+    Cordoba (mx)\nAngel Estrada (mx)\n"
 --- !u!222 &1897259241
 CanvasRenderer:
   m_ObjectHideFlags: 0

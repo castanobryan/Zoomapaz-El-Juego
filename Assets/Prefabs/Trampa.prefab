@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212986695372384810}
   m_Layer: 0
   m_Name: Trampa
-  m_TagString: Untagged
+  m_TagString: Caida
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

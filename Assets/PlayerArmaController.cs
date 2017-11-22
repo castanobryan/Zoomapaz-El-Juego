@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerArmaController : MonoBehaviour {
-
+	public AudioClip Pointsound;
+	public AudioClip Pointfail;
+	public GameObject game;
 	public float maxSpeed = 20f;
 	public float speed = 2f;
 	public bool grounded;
-
+	private AudioSource audioPlayer;
 	private Rigidbody2D rb2d;
 	private Animator anim;
+
 
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator> ();
+		audioPlayer = GetComponent<AudioSource> ();
+		game = GameObject.Find ("Points");
 	}
 
 	void Update () {
@@ -38,6 +43,21 @@ public class PlayerArmaController : MonoBehaviour {
 		} 
 		if (h < -0.1f) {
 			transform.localScale = new Vector3 (-1f, 1f, 1f);
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.gameObject.tag == "Point"){
+			Destroy (other.gameObject);
+			game.SendMessage ("IncreasePoints");
+			audioPlayer.clip = Pointsound;
+			audioPlayer.Play ();
+		} 
+
+		if (other.gameObject.tag == "Caida"){
+			game.SendMessage("DecreasePoints");
+			audioPlayer.clip = Pointfail;
+			audioPlayer.Play ();
 		}
 	}
 }
